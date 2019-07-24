@@ -13,12 +13,15 @@ SpaCy requires the following add-on.
 ```shell
 python -m spacy download en_core_web_sm
 ```
-
-## Use
-
-
 ## Description 
 Moralizer returns word counts of a text based on the [Moral Foundations Vocabulary 2.0](https://osf.io/ezn37/) in a neat and organized JSON object or Python dictionary.
+
+## Use
+Structure
+- moralizer
+  - read_file(input_file)
+  - moralize(text, output_format=default is Python dictionary, add ".json" for output in JSON).
+
 
 ## Dependencies
 Moralizer only uses one outside dependency, the delightfully opinionated [**spaCy**](https://spacy.io/).

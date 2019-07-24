@@ -11,8 +11,7 @@ documentation = "https://poetry.eustace.io/docs"
 keywords = ["nlp", "sentiment", "spacy", "moral foundations"]
 
 classifiers = [
-    "Topic :: Software Development :: Build Tools",
-    "Topic :: Software Development :: Libraries :: Python Modules"
+    "Topic :: natural-langauge-processing :: sentiment-analysis :: moral-foundations"
 ]
 
 [tool.poetry.dependencies]
