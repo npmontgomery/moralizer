@@ -1,17 +1,17 @@
 [tool.poetry]
 name = "moralizer"
-version = "0.1.0"
+version = "0.1.2"
 description = "> Simple tool to get the Moral Foundations counts of a given text."
-authors = ["Your Name <npmontgomery@gmail.com>"]
+authors = ["npm"]
 license = "MIT"
 readme = 'README.md'
-repository = "https://github.com/sdispater/poetry"
-documentation = "https://poetry.eustace.io/docs"
+repository = "https://github.com/npmontgomery/moralizer"
+documentation = "https://github.com/npmontgomery/moralizer"
 
 keywords = ["nlp", "sentiment", "spacy", "moral foundations"]
 
 classifiers = [
-    "Topic :: natural-langauge-processing :: sentiment-analysis :: moral-foundations"
+    "Natural Language :: English"
 ]
 
 [tool.poetry.dependencies]

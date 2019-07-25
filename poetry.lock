@@ -259,8 +259,8 @@ python-versions = ">=2.7"
 version = "0.5.2"
 
 [metadata]
-content-hash = "6519bd12e8430e53461d9d17f09a056a72b0861ea996ee7e0040963b0fb3c699"
-python-versions = "^3.7"
+content-hash = "b547b9b01061107374bcdefb5400b56c9ea5645707d7d683bd41c8e8bc9252ed"
+python-versions = "^3.6"
 
 [metadata.hashes]
 atomicwrites = ["03472c30eb2c5d1ba9227e4c2ca66ab8287fbfbbda3888aa93dc2e28fc6811b4", "75a9445bac02d8d058d5e1fe689654ba5a6556a1dfd8ce6ec55a0ed79866cfa6"]

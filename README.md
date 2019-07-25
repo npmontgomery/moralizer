@@ -17,8 +17,12 @@ python -m spacy download en_core_web_sm
 Moralizer returns word counts of a text based on the [Moral Foundations Vocabulary 2.0](https://osf.io/ezn37/) in a neat and organized JSON object or Python dictionary.
 
 ## Use
-Structure
+
+```python
+from moralizer import *
+```
 - moralizer
+  - read_json(reads in a json file)
   - read_file(input_file)
   - moralize(text, output_format=default is Python dictionary, add ".json" for output in JSON).
 
