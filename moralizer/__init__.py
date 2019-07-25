@@ -28,7 +28,7 @@ def word_frequency_dict(input_text):
 
 def count_keywords(source_dictionary):
     output_dict = {'care':{'vice':{}, 'virtue':{}}, 'fairness':{'vice':{}, 'virtue':{}}, 'loyalty':{'vice':{}, 'virtue':{}}, 'authority':{'vice':{}, 'virtue':{}}, 'sanctity':{'vice':{}, 'virtue':{}}}
-    lex = read_json(moral_foundations_dictionary)
+    lex = moral_foundations_dictionary
     for item in lex.keys():
         good = [(item, source_dictionary[item]) for item in lex[item]['virtue'] if item in source_dictionary]
         bad = [(item, source_dictionary[item]) for item in lex[item]['vice'] if item in source_dictionary] 

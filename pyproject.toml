@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "moralizer"
-version = "0.1.2"
+version = "0.1.4"
 description = "> Simple tool to get the Moral Foundations counts of a given text."
 authors = ["npm"]
 license = "MIT"
