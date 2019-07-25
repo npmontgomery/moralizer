@@ -60,7 +60,7 @@ def moralize(input_text, output_format='pydict'):
         result = count_keywords(analyzed_text)
         return json.dumps(result)
     else:
-        return count_keywords(analyzed_text, output_format)
+        return count_keywords(analyzed_text)
 
 
 
